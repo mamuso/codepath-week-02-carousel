@@ -15,6 +15,7 @@
 		0B3E84B01BB3BBF700C61563 /* codepath_week_02_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84AF1BB3BBF700C61563 /* codepath_week_02_carouselTests.swift */; };
 		0B3E84BB1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84BA1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift */; };
 		0B3E84CB1BB3C84900C61563 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84CA1BB3C84900C61563 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		0B3E84CD1BB3C94900C61563 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0B3E84BA1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_week_02_carouselUITests.swift; sourceTree = "<group>"; };
 		0B3E84BC1BB3BBF700C61563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3E84CA1BB3C84900C61563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B3E849A1BB3BBF700C61563 /* AppDelegate.swift */,
 				0B3E849C1BB3BBF700C61563 /* ViewController.swift */,
 				0B3E849E1BB3BBF700C61563 /* Main.storyboard */,
+				0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */,
 				0B3E84A11BB3BBF700C61563 /* Assets.xcassets */,
 				0B3E84A31BB3BBF700C61563 /* LaunchScreen.storyboard */,
 				0B3E84A61BB3BBF700C61563 /* Info.plist */,
@@ -264,6 +267,7 @@
 				0B3E849D1BB3BBF700C61563 /* ViewController.swift in Sources */,
 				0B3E84CB1BB3C84900C61563 /* Common.swift in Sources */,
 				0B3E849B1BB3BBF700C61563 /* AppDelegate.swift in Sources */,
+				0B3E84CD1BB3C94900C61563 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
