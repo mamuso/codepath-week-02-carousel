@@ -26,34 +26,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1130"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro" id="tbI-Qj-QT2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile5" id="XwA-zg-nkc">
-                                <rect key="frame" x="-19" y="367" width="130" height="130"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile6" id="ouf-Mf-QXv">
-                                <rect key="frame" x="75" y="388" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile3" id="7Ta-8Q-uH6">
-                                <rect key="frame" x="182" y="378" width="130" height="130"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile4" id="zKz-b3-9P0">
-                                <rect key="frame" x="103" y="479" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile1" id="yIv-BC-fVK">
-                                <rect key="frame" x="-27" y="475" width="145" height="145"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="intro_tile2" id="p3d-e9-Pzq">
-                                <rect key="frame" x="208" y="474" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gCp-Yc-idf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro" id="tbI-Qj-QT2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile5" id="XwA-zg-nkc">
+                                        <rect key="frame" x="-17" y="367" width="130" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile6" id="ouf-Mf-QXv">
+                                        <rect key="frame" x="75" y="388" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile3" id="7Ta-8Q-uH6">
+                                        <rect key="frame" x="182" y="378" width="130" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile4" id="zKz-b3-9P0">
+                                        <rect key="frame" x="98" y="480" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="intro_tile1" id="yIv-BC-fVK">
+                                        <rect key="frame" x="-32" y="475" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="intro_tile2" id="p3d-e9-Pzq">
+                                        <rect key="frame" x="208" y="475" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -66,6 +72,7 @@
                         <outlet property="intro04ImageView" destination="yIv-BC-fVK" id="AZ0-7T-Jq8"/>
                         <outlet property="intro05ImageView" destination="zKz-b3-9P0" id="CYO-sb-IrM"/>
                         <outlet property="intro06ImageView" destination="p3d-e9-Pzq" id="JHa-96-D6V"/>
+                        <outlet property="scrollView" destination="gCp-Yc-idf" id="0ih-oP-WYa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gel-TX-CEr" userLabel="First Responder" sceneMemberID="firstResponder"/>

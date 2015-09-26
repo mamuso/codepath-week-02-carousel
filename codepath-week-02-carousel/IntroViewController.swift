@@ -10,13 +10,15 @@ import UIKit
 
 class IntroViewController: ViewController {
 
+    // Scroll Outlet
+    @IBOutlet weak var scrollView: UIScrollView!
+    // Image outlets
     @IBOutlet weak var intro01ImageView: UIImageView!
     @IBOutlet weak var intro02ImageView: UIImageView!
     @IBOutlet weak var intro03ImageView: UIImageView!
     @IBOutlet weak var intro04ImageView: UIImageView!
     @IBOutlet weak var intro05ImageView: UIImageView!
     @IBOutlet weak var intro06ImageView: UIImageView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
