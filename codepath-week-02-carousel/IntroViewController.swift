@@ -21,9 +21,13 @@ class IntroViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
+        // Setting up the images.
         intro01ImageView.transform = CGAffineTransformMakeRotation(CGFloat(10 * M_PI / 180))
+        intro02ImageView.transform = CGAffineTransformMakeRotation(CGFloat(-10 * M_PI / 180))
+        intro03ImageView.transform = CGAffineTransformMakeRotation(CGFloat(10 * M_PI / 180))
+        intro04ImageView.transform = CGAffineTransformMakeRotation(CGFloat(-10 * M_PI / 180))
+        intro05ImageView.transform = CGAffineTransformMakeRotation(CGFloat(10 * M_PI / 180))
+        intro06ImageView.transform = CGAffineTransformMakeRotation(CGFloat(-10 * M_PI / 180))
     }
 
     override func didReceiveMemoryWarning() {
