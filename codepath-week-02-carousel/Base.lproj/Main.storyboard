@@ -27,8 +27,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gCp-Yc-idf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro" id="tbI-Qj-QT2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
@@ -66,6 +66,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1130"/>
                     <connections>
+                        <outlet property="backgroundImageView" destination="tbI-Qj-QT2" id="0mq-mB-gNg"/>
                         <outlet property="intro01ImageView" destination="XwA-zg-nkc" id="Wsx-K1-oKr"/>
                         <outlet property="intro02ImageView" destination="ouf-Mf-QXv" id="5oP-j1-9Pu"/>
                         <outlet property="intro03ImageView" destination="7Ta-8Q-uH6" id="QDQ-gn-rHr"/>

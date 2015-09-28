@@ -49,7 +49,7 @@
 		0B3E84B61BB3BBF700C61563 /* codepath-week-02-carouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-week-02-carouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3E84BA1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_week_02_carouselUITests.swift; sourceTree = "<group>"; };
 		0B3E84BC1BB3BBF700C61563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B3E84CA1BB3C84900C61563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0B3E84CA1BB3C84900C61563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 		0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,6 @@
 		0B3E848E1BB3BBF700C61563 = {
 			isa = PBXGroup;
 			children = (
-				0B3E84CA1BB3C84900C61563 /* Common.swift */,
 				0B3E84991BB3BBF700C61563 /* codepath-week-02-carousel */,
 				0B3E84AE1BB3BBF700C61563 /* codepath-week-02-carouselTests */,
 				0B3E84B91BB3BBF700C61563 /* codepath-week-02-carouselUITests */,
@@ -102,6 +101,7 @@
 		0B3E84991BB3BBF700C61563 /* codepath-week-02-carousel */ = {
 			isa = PBXGroup;
 			children = (
+				0B3E84CA1BB3C84900C61563 /* Common.swift */,
 				0B3E849A1BB3BBF700C61563 /* AppDelegate.swift */,
 				0B3E849C1BB3BBF700C61563 /* ViewController.swift */,
 				0B3E849E1BB3BBF700C61563 /* Main.storyboard */,
@@ -492,6 +492,7 @@
 				0B3E84C11BB3BBF700C61563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3E84C21BB3BBF700C61563 /* Build configuration list for PBXNativeTarget "codepath-week-02-carouselTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				0B3E84C41BB3BBF700C61563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3E84C51BB3BBF700C61563 /* Build configuration list for PBXNativeTarget "codepath-week-02-carouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				0B3E84C71BB3BBF700C61563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
