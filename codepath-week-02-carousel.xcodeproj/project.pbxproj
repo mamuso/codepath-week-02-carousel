@@ -16,6 +16,7 @@
 		0B3E84BB1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84BA1BB3BBF700C61563 /* codepath_week_02_carouselUITests.swift */; };
 		0B3E84CB1BB3C84900C61563 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84CA1BB3C84900C61563 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		0B3E84CD1BB3C94900C61563 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBA5C1FA1BB90D1800F71CDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0B3E84BC1BB3BBF700C61563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3E84CA1BB3C84900C61563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 		0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "codepath-week-02-carousel/LoginViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		0B3E848E1BB3BBF700C61563 = {
 			isa = PBXGroup;
 			children = (
+				BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */,
 				0B3E84991BB3BBF700C61563 /* codepath-week-02-carousel */,
 				0B3E84AE1BB3BBF700C61563 /* codepath-week-02-carouselTests */,
 				0B3E84B91BB3BBF700C61563 /* codepath-week-02-carouselUITests */,
@@ -267,6 +270,7 @@
 				0B3E849D1BB3BBF700C61563 /* ViewController.swift in Sources */,
 				0B3E84CB1BB3C84900C61563 /* Common.swift in Sources */,
 				0B3E849B1BB3BBF700C61563 /* AppDelegate.swift in Sources */,
+				BBA5C1FA1BB90D1800F71CDF /* LoginViewController.swift in Sources */,
 				0B3E84CD1BB3C94900C61563 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

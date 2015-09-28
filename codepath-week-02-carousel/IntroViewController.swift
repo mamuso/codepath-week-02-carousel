@@ -39,7 +39,6 @@ class IntroViewController: ViewController, UIScrollViewDelegate {
         intro04ImageView.transform = CGAffineTransformMakeRotation(CGFloat(-10 * M_PI / 180))
         intro05ImageView.transform = CGAffineTransformMakeRotation(CGFloat(10 * M_PI / 180))
         intro06ImageView.transform = CGAffineTransformMakeRotation(CGFloat(-10 * M_PI / 180))
-        print(intro02ImageView.center)
     }
     
     override func didReceiveMemoryWarning() {
