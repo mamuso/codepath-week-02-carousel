@@ -29,6 +29,7 @@ class IntroViewController: ViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         
         // Setting up the scroll
+        scrollView.frame.size.height = 568
         scrollView.contentSize = backgroundImageView.image!.size
         scrollView.delegate = self
         
