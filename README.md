@@ -17,11 +17,11 @@
   - [x] User is taken to the tutorial screens upon entering the correct email/password combination.
   - [x] Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
   - [x] Optional: On appear, scale the form up and fade it in.
-- [ ] Optional: Sign Up
-  - [ ] Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
-  - [ ] Optional: Tapping the Agree to Terms checkbox selects the checkbox.
-  - [ ] Optional: Tapping on Terms shows a webview with the terms.
-  - [ ] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+- [x] Optional: Sign Up
+  - [x] Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
+  - [x] Optional: Tapping the Agree to Terms checkbox selects the checkbox.
+  - [x] Optional: Tapping on Terms shows a webview with the terms.
+  - [x] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 - [x] Tutorial Screens
   - [x] User can page between the screens
   - [x] Optional: User can page between the screens with updated dots
@@ -33,9 +33,9 @@
 - [x] Settings
   - [x] User can dismiss the settings screen.
   - [x] User can log out
-- [ ] Optional: Learn more about Carousel
-  - [ ] Optional: Show the "Learn more about Carousel" button in the photo timeline.
-  - [ ] Optional: Tap the X to dismiss the banner
+- [x] Optional: Learn more about Carousel
+  - [x] Optional: Show the "Learn more about Carousel" button in the photo timeline.
+  - [x] Optional: Tap the X to dismiss the banner
   - [ ] Optional: Track the 3 events:
     - [ ] View a photo full screen
     - [ ] Swipe left and right

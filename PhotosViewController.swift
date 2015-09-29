@@ -12,6 +12,7 @@ class PhotosViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var feedImgeView: UIImageView!
+    @IBOutlet weak var learnMoreView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,12 @@ class PhotosViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func didDismissLearnMore(sender: AnyObject) {
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.learnMoreView.alpha = 0
+        }
+    }
+
 
     /*
     // MARK: - Navigation
