@@ -245,7 +245,7 @@
                                         <rect key="frame" x="0.0" y="621" width="320" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="AsG-dS-ihk" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bSD-sh-miC"/>
+                                            <segue destination="kKt-XP-PzB" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="LLz-Wl-kbp"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -438,7 +438,4 @@
         <image name="welcome3" width="320" height="568"/>
         <image name="welcome4" width="320" height="568"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="bSD-sh-miC"/>
-    </inferredMetricsTieBreakers>
 </document>
