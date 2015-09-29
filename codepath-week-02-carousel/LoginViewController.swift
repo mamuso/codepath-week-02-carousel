@@ -65,7 +65,7 @@ class LoginViewController: UIViewController {
                 self.dismissViewControllerAnimated(true, completion: nil)
                 // Let's login!
                 if self.emailTextField.text == "ha@ha.com" && self.passwordTextField.text == "ha" {
-                    
+                    self.performSegueWithIdentifier("walkTroughSegue", sender: nil)
                 } else {
                     // OH NO Alert
                     let signingInAlert = UIAlertController(title: "Sign In Failed", message: "Incorrect email or password", preferredStyle: UIAlertControllerStyle.Alert)

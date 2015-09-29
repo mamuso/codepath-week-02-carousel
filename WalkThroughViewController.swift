@@ -19,15 +19,14 @@ class WalkThroughViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // setting up the actions view
-        actionsOrigin = actionsView.center.y
-        actionsView.center = CGPoint(x: actionsView.center.x, y: actionsOrigin + 110)
-
-        
         // Setting up the scroll
         scrollView.delegate = self
         scrollView.frame.size.width = 320
         scrollView.contentSize.width = 1280
+
+        // setting up the actions view
+        actionsOrigin = actionsView.center.y
+        actionsView.center = CGPoint(x: actionsView.center.x, y: actionsOrigin + 110)
         
     }
 

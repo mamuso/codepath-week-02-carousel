@@ -18,7 +18,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        scrollView.frame.size.height = 500
+        scrollView.frame.size.height = 510
         scrollView.contentSize = settingsImageView.image!.size
     }
 
