@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Xkt-8f-hgr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="5tI-pA-t6Q">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -205,6 +205,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uMb-JY-vTs">
                                         <rect key="frame" x="5" y="23" width="44" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="MHu-cB-avL" kind="modal" id="9dM-km-Oe6"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -221,6 +224,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNm-KN-09p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2047" y="2013"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="HEi-Wb-akl">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" automaticallyAdjustsScrollViewInsets="NO" id="MHu-cB-avL" customClass="SettingsViewController" customModule="codepath_week_02_carousel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vLN-Gy-Bhy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="868"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IMB-Va-nMO">
+                                <rect key="frame" x="0.0" y="65" width="320" height="803"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="Bwd-UG-E6T">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="695"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iRy-FQ-nue">
+                                        <rect key="frame" x="0.0" y="621" width="320" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="AsG-dS-ihk" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bSD-sh-miC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" id="Oqe-ZP-t8w">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings_nav" id="8l0-7v-ApX">
+                                        <rect key="frame" x="0.0" y="4" width="320" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gbS-iP-OWz">
+                                        <rect key="frame" x="5" y="24" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didDissmissView:" destination="MHu-cB-avL" eventType="touchUpInside" id="nVd-RU-c2N"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="868"/>
+                    <connections>
+                        <outlet property="scrollView" destination="IMB-Va-nMO" id="xjn-U1-Nal"/>
+                        <outlet property="settingsImageView" destination="Bwd-UG-E6T" id="NtC-Aq-MY8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hib-pf-wrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2047" y="2896"/>
         </scene>
         <!--Conversations View Controller-->
         <scene sceneID="DCO-wi-wrj">
@@ -368,6 +429,8 @@
         <image name="login_form" width="320" height="113"/>
         <image name="login_text" width="320" height="70"/>
         <image name="scrubber" width="320" height="36"/>
+        <image name="settings" width="320" height="695"/>
+        <image name="settings_nav" width="320" height="64"/>
         <image name="sign_in_buttons" width="320" height="104"/>
         <image name="sign_in_nav_bar" width="320" height="66"/>
         <image name="welcome1" width="320" height="568"/>
@@ -375,4 +438,7 @@
         <image name="welcome3" width="320" height="568"/>
         <image name="welcome4" width="320" height="568"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bSD-sh-miC"/>
+    </inferredMetricsTieBreakers>
 </document>

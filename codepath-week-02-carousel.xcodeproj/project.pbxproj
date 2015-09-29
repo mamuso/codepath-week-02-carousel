@@ -20,6 +20,7 @@
 		BBB89EF51BBA1DCC009CB650 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBB89EF71BBA2647009CB650 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBB89EF91BBA38A5009CB650 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBB89EFB1BBA3963009CB650 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EFA1BBA3963009CB650 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,11 @@
 		0B3E84BC1BB3BBF700C61563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3E84CA1BB3C84900C61563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 		0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
-		BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "codepath-week-02-carousel/LoginViewController.swift"; sourceTree = "<group>"; };
-		BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
-		BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalkThroughViewController.swift; path = ../WalkThroughViewController.swift; sourceTree = "<group>"; };
+		BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = ../PhotosViewController.swift; sourceTree = "<group>"; };
 		BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		BBB89EFA1BBA3963009CB650 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,6 @@
 		0B3E848E1BB3BBF700C61563 = {
 			isa = PBXGroup;
 			children = (
-				BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */,
-				BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */,
-				BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */,
 				0B3E84991BB3BBF700C61563 /* codepath-week-02-carousel */,
 				0B3E84AE1BB3BBF700C61563 /* codepath-week-02-carouselTests */,
 				0B3E84B91BB3BBF700C61563 /* codepath-week-02-carouselUITests */,
@@ -112,10 +111,14 @@
 		0B3E84991BB3BBF700C61563 /* codepath-week-02-carousel */ = {
 			isa = PBXGroup;
 			children = (
+				BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */,
+				BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */,
+				BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */,
 				0B3E84CA1BB3C84900C61563 /* Common.swift */,
 				0B3E849A1BB3BBF700C61563 /* AppDelegate.swift */,
 				0B3E849C1BB3BBF700C61563 /* ViewController.swift */,
 				0B3E849E1BB3BBF700C61563 /* Main.storyboard */,
+				BBB89EFA1BBA3963009CB650 /* SettingsViewController.swift */,
 				BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */,
 				0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */,
 				0B3E84A11BB3BBF700C61563 /* Assets.xcassets */,
@@ -284,6 +287,7 @@
 				BBB89EF71BBA2647009CB650 /* PhotosViewController.swift in Sources */,
 				BBA5C1FA1BB90D1800F71CDF /* LoginViewController.swift in Sources */,
 				0B3E84CD1BB3C94900C61563 /* IntroViewController.swift in Sources */,
+				BBB89EFB1BBA3963009CB650 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
