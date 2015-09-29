@@ -19,6 +19,7 @@
 		BBA5C1FA1BB90D1800F71CDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBB89EF51BBA1DCC009CB650 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBB89EF71BBA2647009CB650 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBB89EF91BBA38A5009CB650 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BBA5C1F91BB90D1800F71CDF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "codepath-week-02-carousel/LoginViewController.swift"; sourceTree = "<group>"; };
 		BBB89EF41BBA1DCC009CB650 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 		BBB89EF61BBA2647009CB650 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				0B3E849A1BB3BBF700C61563 /* AppDelegate.swift */,
 				0B3E849C1BB3BBF700C61563 /* ViewController.swift */,
 				0B3E849E1BB3BBF700C61563 /* Main.storyboard */,
+				BBB89EF81BBA38A5009CB650 /* ConversationsViewController.swift */,
 				0B3E84CC1BB3C94900C61563 /* IntroViewController.swift */,
 				0B3E84A11BB3BBF700C61563 /* Assets.xcassets */,
 				0B3E84A31BB3BBF700C61563 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 				0B3E849D1BB3BBF700C61563 /* ViewController.swift in Sources */,
 				0B3E84CB1BB3C84900C61563 /* Common.swift in Sources */,
 				0B3E849B1BB3BBF700C61563 /* AppDelegate.swift in Sources */,
+				BBB89EF91BBA38A5009CB650 /* ConversationsViewController.swift in Sources */,
 				BBB89EF51BBA1DCC009CB650 /* WalkThroughViewController.swift in Sources */,
 				BBB89EF71BBA2647009CB650 /* PhotosViewController.swift in Sources */,
 				BBA5C1FA1BB90D1800F71CDF /* LoginViewController.swift in Sources */,
