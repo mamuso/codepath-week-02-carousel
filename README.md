@@ -2,6 +2,8 @@
 
 *Due:* Monday, September 28th at 11:59pm
 
+![Video Walkthrough](CarouselSimulation.gif)
+
 ## Project Requirements
 
 - [x] Static photo tiles on the initial screen
