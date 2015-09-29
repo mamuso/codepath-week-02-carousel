@@ -37,7 +37,6 @@ class WalkThroughViewController: UIViewController, UIScrollViewDelegate {
     
     
     // Scroll functions
-    
     func scrollViewDidScroll(scrollView: UIScrollView) {
         // This method is called as the user scrolls
     }
